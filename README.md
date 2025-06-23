@@ -82,6 +82,10 @@ You can also run the converter directly from the command line:
   python main.py
 This runs the default file specified in main.py.
 
+Running main file 
+write the run command in terminal 
+python main.py
+
 To convert other files, update the path in main.py:
 if __name__ == "__main__":
     convert_to_markdown("examples/sample.pdf", output_dir="converted/")
