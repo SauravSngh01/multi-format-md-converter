@@ -48,24 +48,24 @@ multi_format_to_md/
 ├── tests/                                                                                                                                                                                   
 │   ├── test_pdf.py                                                                                                                                                                    
 │   ├── test_docx.py                                                                                                                                             
-│   ├── test_xml.py                                                                                     
-│   ├── test_json.py
-│   ├── test_txt.py
-│   └── test_output_format.py
-│
-├── examples/
-│   ├── sample.pdf
-│   ├── sample.docx
-│   ├── sample.xml
-│   ├── sample.json
-│   └── sample.txt
-│
-├── requirements.txt            # Includes pdfplumber, python-docx, lxml, etc.
-├── README.md                   # Instructions, usage examples
-└── main.py                     # Batch converter script
+│   ├── test_xml.py                                                                                                                 
+│   ├── test_json.py                                                                                     
+│   ├── test_txt.py                                                                                                           
+│   └── test_output_format.py                                                                                                         
+│                                                                                                                                                                 
+├── examples/                                                                                                                          
+│   ├── sample.pdf                                                                                                                                                             
+│   ├── sample.docx                                                                                                                 
+│   ├── sample.xml                                                                                                         
+│   ├── sample.json                                                                                                          
+│   └── sample.txt                                                                                                             
+│                                                                                                        
+├── requirements.txt            # Includes pdfplumber, python-docx, lxml, etc.                                         
+├── README.md                   # Instructions, usage examples                                  
+└── main.py                     # Batch converter script                                                                                            
 
 
-⚙️ Installation
+⚙️ Installation                                          
 1. Clone the Repository
   git clone https://github.com/SauravSngh01/multi-format-md-converter.git
   cd multi-format-md-converter
