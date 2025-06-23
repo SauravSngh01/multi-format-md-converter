@@ -28,27 +28,27 @@ A Python module that accepts input files in various formats—**PDF, DOCX, XML, 
 ---
 
 ## 📁 Project Structure
-multi_format_to_md/
-│
-├── converter/
-│   ├── __init__.py
-│   ├── base_converter.py       # Abstract base class
-│   ├── pdf_converter.py        # PDF to Markdown logic
-│   ├── docx_converter.py       # DOCX to Markdown logic
-│   ├── xml_converter.py        # XML to Markdown logic
-│   ├── json_converter.py       # JSON to Markdown logic
-│   ├── txt_converter.py        # TXT to Markdown logic
-│   └── markdown_writer.py      # Writes .md output files
-│
-├── utils/
-│   ├── __init__.py
-│   ├── file_detector.py        # Detect file extension
-│   └── logger.py               # Logging setup
-│
-├── tests/
-│   ├── test_pdf.py
-│   ├── test_docx.py
-│   ├── test_xml.py
+multi_format_to_md/                                                                                                                                                                                    
+│                                                                                                                                                                     
+├── converter/                                                                                                                                                          
+│   ├── __init__.py                                                                                                                                                                                                                                                           
+│   ├── base_converter.py       # Abstract base class                                                                                                                                                                                                                         
+│   ├── pdf_converter.py        # PDF to Markdown logic                                                                                                                                                                                                                      
+│   ├── docx_converter.py       # DOCX to Markdown logic                                                                                                                                                                                                                
+│   ├── xml_converter.py        # XML to Markdown logic                                                                                                                                                                                                                       
+│   ├── json_converter.py       # JSON to Markdown logic                                                                                                                                                                                                               
+│   ├── txt_converter.py        # TXT to Markdown logic                                                                                                                                                                                                                   
+│   └── markdown_writer.py      # Writes .md output files                                                                                                                                                                       
+│                                                                                                                                                                                                                                                          
+├── utils/                                                                                                                                                                                                                                                           
+│   ├── __init__.py                                                                                                                                                                                      
+│   ├── file_detector.py        # Detect file extension                                                                                                                                                                                                 
+│   └── logger.py               # Logging setup                                                                                                                                                                                          
+│                                                                                                                                                                                                                
+├── tests/                                                                                                                                                                                   
+│   ├── test_pdf.py                                                                                                                                                                    
+│   ├── test_docx.py                                                                                                                                             
+│   ├── test_xml.py                                                                                     
 │   ├── test_json.py
 │   ├── test_txt.py
 │   └── test_output_format.py
